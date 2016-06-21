@@ -1,39 +1,21 @@
 "*":
+  "atom-beautify":
+    erb: {}
+    general:
+      _analyticsUserId: "6cd8ba82-4852-4052-886e-9e9706eaa52d"
+    ruby:
+      indent_size: 2
   core:
     disabledPackages: [
-      "background-tips"
-      "exception-reporting"
-      "metrics"
-    ]
-    followSymlinks: false
-    hideGitIgnoredFiles: true
-    ignoredNames: [
-      ".bundle"
-      ".git"
-      "log"
-      "repositories"
-      "tmp"
-      "vendor"
+      "markdown-preview"
     ]
     themes: [
-      "unity-ui"
-      "glacier-syntax"
+      "one-dark-ui"
+      "solarized-dark-syntax"
     ]
   editor:
-    fontFamily: "Menlo"
-    invisibles: {}
-    showIndentGuide: true
-    softWrapAtPreferredLineLength: true
-  "go-plus":
-    goPath: "/Users/holman/Code/go"
-  "release-notes":
-    viewedVersion: "0.89.0"
-  "spell-check":
-    grammars: [
-      "text.plain"
-      "source.gfm"
-      "text.git-commit"
-      "text.html.basic"
-    ]
+    fontSize: 17
+  "exception-reporting":
+    userId: "f572be87-0b88-58db-1346-84869ae13723"
   welcome:
     showOnStartup: false
