@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# Define a timestamp function
+timestamp() {
+  date +"%T"
+}

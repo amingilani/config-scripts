@@ -3,12 +3,12 @@
     erb: {}
     general:
       _analyticsUserId: "6cd8ba82-4852-4052-886e-9e9706eaa52d"
+    markdown:
+      default_beautifier: "Remark"
     ruby:
       indent_size: 2
   core:
-    disabledPackages: [
-      "markdown-preview"
-    ]
+    disabledPackages: []
     themes: [
       "one-dark-ui"
       "solarized-dark-syntax"
