@@ -23,6 +23,7 @@ brew 'wget'
 brew 'youtube-dl'
 brew 'gnu-units'
 brew 'shellcheck'
+brew 'asciinema'
 
 cask 'atom'
 cask 'firefox'
