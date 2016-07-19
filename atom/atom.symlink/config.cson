@@ -1,0 +1,24 @@
+"*":
+  "atom-beautify":
+    erb: {}
+    general:
+      _analyticsUserId: "6cd8ba82-4852-4052-886e-9e9706eaa52d"
+    markdown:
+      default_beautifier: "Remark"
+    ruby:
+      indent_size: 2
+  core:
+    disabledPackages: []
+    themes: [
+      "one-dark-ui"
+      "solarized-dark-syntax"
+    ]
+  editor:
+    fontSize: 16
+  "exception-reporting":
+    userId: "f572be87-0b88-58db-1346-84869ae13723"
+  "linter-rubocop":
+    command: "rubocop --rails"
+  minimap: {}
+  welcome:
+    showOnStartup: false
