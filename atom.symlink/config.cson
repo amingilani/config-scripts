@@ -14,8 +14,11 @@
       "solarized-dark-syntax"
     ]
   editor:
-    fontSize: 17
+    fontSize: 16
   "exception-reporting":
     userId: "f572be87-0b88-58db-1346-84869ae13723"
+  "linter-rubocop":
+    command: "rubocop --rails"
+  minimap: {}
   welcome:
     showOnStartup: false
