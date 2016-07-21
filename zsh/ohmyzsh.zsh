@@ -3,7 +3,7 @@
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
 ZSH_THEME="agnoster"
-unalias run-help
+# unalias run-help
 autoload run-help
 HELPDIR=/usr/local/share/zsh/help
 
