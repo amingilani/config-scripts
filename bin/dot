@@ -16,6 +16,10 @@ $ZSH/homebrew/install.sh 2>&1
 echo "› brew update"
 brew update
 
+# Upgrade casks
+echo"> brew cask upgrade -- well, sorta"
+brew cask list | xargs brew cask install --force
+
 # Install software
 echo "› $ZSH/script/install"
 $ZSH/script/install
