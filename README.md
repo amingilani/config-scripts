@@ -1,4 +1,4 @@
-# dotfiles
+# amingilani's dotfiles
 
 Your dotfiles are how you personalize your system. These are mine. I originally
 forked a zachholman's but now these are truly mine.
