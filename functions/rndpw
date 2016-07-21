@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# Generate a random string with over 381 bits of entropy
+rndpw() {
+  perl -pe 'tr/A-Za-z0-9//dc;' < /dev/urandom | head -c 64; echo
+}
