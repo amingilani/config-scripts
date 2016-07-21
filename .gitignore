@@ -1,3 +1,4 @@
+# atom temporary files
 atom/atom.symlink/.apm
 atom/atom.symlink/.node-gyp
 atom/atom.symlink/.storage
@@ -8,3 +9,10 @@ atom/atom.symlink/storage
 atom/atom.symlink/themes
 
 git/gitconfig.local.symlink
+
+# secret gpg files
+gpg/gnupg.symlink/private-key*
+gpg/gnupg.symlink/random_seed
+gpg/gnupg.symlink/reader_0.status
+gpg/gnupg.symlink/secring.gpg
+gpg/gnupg.symlink/trustdb.gpg
