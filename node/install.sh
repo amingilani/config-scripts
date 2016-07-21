@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# if not is not installed
+# if node is not installed
 if ! type node
 then
   # if nvm is not installed
