@@ -25,6 +25,7 @@ brew 'nmap' # never know when you might need it
 brew 'keybase' # oh yeah
 brew 'zsh' # much better
 brew 'phantomjs'
+brew 'maven'
 
 cask 'atom'
 cask 'firefox'
@@ -37,3 +38,4 @@ cask 'tunnelblick'
 cask 'telegram'
 cask 'airdroid'
 cask 'docker'
+cask 'java'
