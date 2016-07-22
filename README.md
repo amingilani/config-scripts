@@ -1,7 +1,14 @@
 # amingilani's dotfiles
 
-Your dotfiles are how you personalize your system. These are mine. I originally
-forked a zachholman's but now these are truly mine.
+Originally forked from zachholman, these dotfiles are now truly mine. Also
+included are my own scripts to initially configure systems.
+
+## Here Be Dragons
+
+These files are my personal config scripts, and may not necessarily work for
+you. I've not only backed up configurations but me specific things like my
+`gpg` public keyring. Make sure you understand what you're doing before you
+set these up. You've been warned.
 
 ## topical
 
@@ -35,7 +42,7 @@ There's a few special files in the hierarchy.
 Run this:
 
 ```sh
-git clone https://github.com/holman/dotfiles.git ~/.dotfiles
+git clone https://github.com/amingilani/config-scripts.git ~/.dotfiles
 cd ~/.dotfiles
 script/bootstrap
 ```
@@ -50,17 +57,6 @@ which sets up a few paths that'll be different on your particular machine.
 defaults, and so on. Tweak this script, and occasionally run `dot` from
 time to time to keep your environment fresh and up-to-date. You can find
 this script in `bin/`.
-
-## bugs
-
-I want this to work for everyone; that means when you clone it down it should
-work for you even though you may not have `rbenv` installed, for example. That
-said, I do use this as *my* dotfiles, so there's a good chance I may break
-something if I forget to make a check for a dependency.
-
-If you're brand-new to the project and run into any blockers, please
-[open an issue](https://github.com/amingilani/dotfiles/issues) on this repository
-and I'd love to get it fixed for you!
 
 ## thanks
 
