@@ -2,8 +2,8 @@ cask_args appdir: '/Applications'
 
 tap 'homebrew/bundle'
 
-brew 'ack'
-brew 'coreutils'
+brew 'ack' # a better grep
+brew 'coreutils' # gnu core utils like ls, ln, mv, id, df, cut, echo
 brew 'grc'
 brew 'imagemagick'
 brew 'jp2a'
@@ -11,19 +11,20 @@ brew 'libcaca', args: ['with-imlib2']
 brew 'libgit2'
 brew 'git'
 brew 'openssl'
-brew 'nvm'
 brew 'readline'
 brew 'postgresql'
 brew 'ruby-build'
 brew 'roundup'
-brew 'spaceman-diff'
-brew 'spark'
 brew 'unrar'
 brew 'wget'
 brew 'youtube-dl'
-brew 'gnu-units'
+brew 'gnu-units' # how many miles is 3 millilightyears? check it out
 brew 'shellcheck'
-brew 'asciinema'
+brew 'asciinema' # best terminal recorder ever
+brew 'nmap' # never know when you might need it
+brew 'keybase' # oh yeah
+brew 'zsh' # much better
+brew 'phantomjs'
 
 cask 'atom'
 cask 'firefox'
