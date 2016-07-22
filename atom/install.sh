@@ -16,3 +16,4 @@ apm install rails-snippets
 apm install rspec-snippets
 apm install sort-lines
 apm install linter-shellcheck
+apm install linter-javac
