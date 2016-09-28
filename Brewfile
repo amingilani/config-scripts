@@ -26,6 +26,7 @@ brew 'keybase' # oh yeah
 brew 'zsh' # much better
 brew 'phantomjs'
 brew 'maven'
+brew 'uncrustify' # a beautifier
 
 cask 'atom'
 cask 'firefox'
