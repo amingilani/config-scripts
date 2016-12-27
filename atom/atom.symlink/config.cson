@@ -9,18 +9,24 @@
       indent_size: 2
       rubocop_path: "/Users/gilani/.rvm/gems/ruby-2.3.1/wrappers/rubocop"
   core:
+    disabledPackages: [
+      "linter-write-good"
+      "linter-proselint"
+    ]
+    telemetryConsent: "limited"
     themes: [
       "one-dark-ui"
       "solarized-dark-syntax"
     ]
-  editor:
-    fontSize: 16
+  editor: {}
   "exception-reporting":
     userId: "f572be87-0b88-58db-1346-84869ae13723"
   linter:
     showErrorPanel: false
   "linter-rubocop":
     command: "/Users/gilani/.rvm/gems/ruby-2.3.1/wrappers/rubocop"
+  "markdown-preview":
+    useGitHubStyle: true
   minimap: {}
   "tree-view":
     hideVcsIgnoredFiles: true

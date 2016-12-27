@@ -33,3 +33,5 @@
         default = simple
 [gpg]
         program = gpg2
+[user]
+	email = amin@gilani.me
