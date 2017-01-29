@@ -14,3 +14,9 @@ then
   alias python="python3"
   alias python2="\python"
 fi
+
+if $(which pip3 &>/dev/null)
+then
+  alias pip="pip3"
+  alias pip2="\pip"
+fi
