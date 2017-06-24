@@ -1,0 +1,2 @@
+'atom-text-editor':
+  'cmd-shift-x': 'linter-eslint:fix-file'
