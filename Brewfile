@@ -17,7 +17,6 @@ brew 'ruby-build'
 brew 'roundup'
 brew 'unrar'
 brew 'wget'
-brew 'youtube-dl'
 brew 'gnu-units' # how many miles is 3 millilightyears? check it out
 brew 'shellcheck'
 brew 'asciinema' # best terminal recorder ever
